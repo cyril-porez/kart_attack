@@ -1,0 +1,20 @@
+# Global ignores (OS, IDE, logs)
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignore VSCode config
+.vscode/
+.idea/
+
+# Ignore global env files (si jamais tu en as un à la racine)
+.env
+.env.*
+
+# Ne pas ignorer les dossiers frontend/backend !
+# (Les node_modules sont ignorés dans leurs propres dossiers .gitignore)
+
+# Build/output (au cas où un script écrit à la racine)
+dist/
+build/
+out/
